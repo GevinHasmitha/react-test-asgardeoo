@@ -8,8 +8,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <AuthProvider
   config={ {
-      signInRedirectURL: "https://localhost:3000",
-      signOutRedirectURL: "https://localhost:3000",
+      signInRedirectURL: "https://kaleidoscopic-arithmetic-206011.netlify.app/",
+      signOutRedirectURL: "https://kaleidoscopic-arithmetic-206011.netlify.app/",
       clientID: "B2cN_JjbxA4UYHIUmfFmJR6pxhoa",
       baseUrl: "https://api.asgardeo.io/t/asgardeo123",
       scope: [ "openid","profile" ]
