@@ -11,7 +11,7 @@ root.render(
       signInRedirectURL: "https://kaleidoscopic-arithmetic-206011.netlify.app/",
       signOutRedirectURL: "https://kaleidoscopic-arithmetic-206011.netlify.app/",
       clientID: "spSTnUJiRN51jBOdyDGtMihP49Ia",
-      baseUrl: "https://api.asgardeo.io/t/interns",
+      baseUrl: "https://api.asgardeo.io/t/interns/G1",
       scope: [ "openid","profile" ]
   } }
 >
