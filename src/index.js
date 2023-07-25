@@ -10,8 +10,8 @@ root.render(
   config={ {
       signInRedirectURL: "https://kaleidoscopic-arithmetic-206011.netlify.app/",
       signOutRedirectURL: "https://kaleidoscopic-arithmetic-206011.netlify.app/",
-      clientID: "spSTnUJiRN51jBOdyDGtMihP49Ia",
-      baseUrl: "https://myaccount.asgardeo.io/t/interns/grp1",
+      clientID: "B2cN_JjbxA4UYHIUmfFmJR6pxhoa",
+      baseUrl: "https://api.asgardeo.io/t/asgardeo123",
       scope: [ "openid","profile" ]
   } }
 >
