@@ -6,13 +6,11 @@ function App() {
   const {  signIn, signOut, state} = useAuthContext();
   console.log("isAuthenticated:", state.isAuthenticated); // Log the value of isAuthenticated
 
-if (state.isAuthenticated){
-  console.log('sssssssssssssssssssssssssssssssssssss')
-}
+
   const displayAuthenticatedContent = () => {
     return (
       <div>
-        <h1>You are authentiicated</h1>
+        <h1>You are authenticated{state.allowedScopes}</h1>
        <button onClick={ () =>{
            signOut()
            console.log('signed out')
@@ -33,8 +31,6 @@ if (state.isAuthenticated){
   return (
     <div className="App">
       <div className="box">
-
-
 
       {state.isAuthenticated ? displayAuthenticatedContent() : displayLoginPage()}
       
