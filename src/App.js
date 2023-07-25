@@ -10,7 +10,8 @@ function App() {
   const displayAuthenticatedContent = () => {
     return (
       <div>
-        <h1>You are authenticated{state.email}</h1>
+        <h1>You are authenticated</h1>
+        {console.log("Staaate",state)};
        <button onClick={ () =>{
            signOut()
            console.log('signed out')
