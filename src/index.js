@@ -12,7 +12,7 @@ root.render(
       signOutRedirectURL: "https://kaleidoscopic-arithmetic-206011.netlify.app/",
       clientID: "B2cN_JjbxA4UYHIUmfFmJR6pxhoa",
       baseUrl: "https://api.asgardeo.io/t/asgardeo123",
-      scope: [ "openid","profile" ]
+      scope: [ "openid","profile","email" ]
   } }
 >
 <App />
